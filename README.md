@@ -104,20 +104,18 @@ Project/
 
 **6) ../LocalStorage.js - (TEST) file for local repository, works if commented while in test mode**
 
-The ../styles folder contains images and style files for our application:
+7) The ../styles folder contains images and style files for our application:
 	- ../img - Includes search icons and a background image
 	- ../styles.sass - preprocessor file for application styles
 	- ../styles.css - an application style file converted from the previous one
 
-The main project folder contains:
+8) The main project folder contains:
 	- todo.html - markup in html of our page
 	- ReadMe.md is the instruction
 
 ----------------------------------------------
 
 **					Created with:
-
-*
 -JavaScript is a programming language for creating application logic
 -HTML is a programming language for creating application markup
 -SASS / CSS is a programming language for creating application styles
