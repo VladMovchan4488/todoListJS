@@ -6,7 +6,7 @@ Tech task, a todo-list application.
 
 *This TodoList is a mini program written in JavaScript / CSS / SASS / HTML.*
 
-**        Specifics:
+**        Specifics:**  
 - note taking
 - sorting by priority
 - sort by status
@@ -18,7 +18,7 @@ Tech task, a todo-list application.
 
 ----------------------------------------------
 
-**					Working with the program:
+**					Working with the program:**  
 
 1) To run the program, you need to open the todo.html file - located in the root folder
 
@@ -46,7 +46,7 @@ Tech task, a todo-list application.
 
 ----------------------------------------------
 
-*Structure:*
+**  Structure:**  
 
 Project/
 |-- sources/
@@ -79,7 +79,7 @@ Project/
 
 ----------------------------------------------
 
-**					Functionality:
+**					Functionality:**  
 
 *The ../sources folder contains files that provide program logic, such as:
 
@@ -115,26 +115,26 @@ Project/
 
 ----------------------------------------------
 
-**					Created with:
--JavaScript is a programming language for creating application logic
--HTML is a programming language for creating application markup
--SASS / CSS is a programming language for creating application styles
--Sublime Text Application Builder *
--Optional: HTML5, HTML6, CSS Flexbox, CSS Grid, Debugging, LocalStorage, GIT, GitHub.
+**					Created with:**  
+- JavaScript is a programming language for creating application logic
+- HTML is a programming language for creating application markup
+- SASS / CSS is a programming language for creating application styles
+- Sublime Text Application Builder *
+- Optional: HTML5, HTML6, CSS Flexbox, CSS Grid, Debugging, LocalStorage, GIT, GitHub.
 
 **Version control: As this is not a relatively large project, I did not use any module bundler (ex. Webpack / Rollup / ..), plugged everything into an html file**
 
 ----------------------------------------------
 
-**					Author:
+**					Author:**  
  Movchan Vlad: 
 - e-mail: movchan.vlad.tm61@gmail.com
 - telephone: 0681990937
 
 ----------------------------------------------
 
-**					Gratitude:
+**					Gratitude:**  
 
-**I would like to thank "Cilkium" - for such a test task, if I do not take the courses, I would still be very grateful to you for such an interesting task, it was very interesting to program this application **
+**I would like to thank "Cilkium" - for such a test task, if I do not take the courses, I would still be very grateful to you for such an interesting task, it was very interesting to program this application**
 
 ----------------------------------------------
