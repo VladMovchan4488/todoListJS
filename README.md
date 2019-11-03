@@ -36,13 +36,13 @@ Tech task, a todo-list application.
 5) The search button searches our note for the specified "title" online (filter-independent)
 
 6) Filters: (run depending on each other, synchronously)
-- note status "open" / "done" sorts our notes in the specified mode
-- the priority of "" high "/" normal "/" low "sorts our notes in the specified mode
+	- note status "open" / "done" sorts our notes in the specified mode
+	- the priority of "" high "/" normal "/" low "sorts our notes in the specified mode
 
 7) Each note has a "..." button with three buttons:
-- "done" / "open" changes the status of the selected note (you can also change the status with the "checkbox" button)
-- "edit" - edits all fields of our note and overwrites
-- "delete" - removes our notes from html markup and class
+	- "done" / "open" changes the status of the selected note (you can also change the status with the "checkbox" button)
+	- "edit" - edits all fields of our note and overwrites
+	- "delete" - removes our notes from html markup and class
 
 ----------------------------------------------
 
@@ -105,30 +105,31 @@ Project/
 **6) ../LocalStorage.js - (TEST) file for local repository, works if commented while in test mode**
 
 The ../styles folder contains images and style files for our application:
-- ../img - Includes search icons and a background image
-- ../styles.sass - preprocessor file for application styles
-- ../styles.css - an application style file converted from the previous one
+	- ../img - Includes search icons and a background image
+	- ../styles.sass - preprocessor file for application styles
+	- ../styles.css - an application style file converted from the previous one
 
 The main project folder contains:
-- todo.html - markup in html of our page
-- ReadMe.md is the instruction
+	- todo.html - markup in html of our page
+	- ReadMe.md is the instruction
 
 ----------------------------------------------
 
 **					Created with:
 
-*JavaScript is a programming language for creating application logic
-HTML is a programming language for creating application markup
-SASS / CSS is a programming language for creating application styles
-Sublime Text Application Builder *
-Optional: HTML5, HTML6, CSS Flexbox, CSS Grid, Debugging, LocalStorage, GIT, GitHub.
+*
+-JavaScript is a programming language for creating application logic
+-HTML is a programming language for creating application markup
+-SASS / CSS is a programming language for creating application styles
+-Sublime Text Application Builder *
+-Optional: HTML5, HTML6, CSS Flexbox, CSS Grid, Debugging, LocalStorage, GIT, GitHub.
 
 **Version control: As this is not a relatively large project, I did not use any module bundler (ex. Webpack / Rollup / ..), plugged everything into an html file**
 
 ----------------------------------------------
 
 **					Author:
-Movchan Vlad: 
+ Movchan Vlad: 
 - e-mail: movchan.vlad.tm61@gmail.com
 - telephone: 0681990937
 
