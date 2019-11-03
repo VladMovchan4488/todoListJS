@@ -69,7 +69,7 @@ Project/
 |   |-- style.css
 |   |-- style.sass
 |   |-- img/
-|	     |-- search.png
+|	|-- search.png
 |       |-- search.jpg
 |       |-- background.jpg
 |       |-- background_night.jpg;
