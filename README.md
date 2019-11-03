@@ -48,7 +48,7 @@ Tech task, a todo-list application.
 
 **  Structure:**  
 
-Project/
+<pre> Project/
 |-- sources/
 |   |-- config/
 |   |    |-- bind.js
@@ -75,7 +75,7 @@ Project/
 |       |-- background_night.jpg;
 |
 |-- todo.html
-|-- ReadMe.md
+|-- ReadMe.md </pre>
 
 ----------------------------------------------
 
