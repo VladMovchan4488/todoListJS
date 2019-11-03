@@ -7,15 +7,14 @@ Tech task, a todo-list application.
 *This TodoList is a mini program written in JavaScript / CSS / SASS / HTML.*
 
 **        Specifics:
-
-note taking
-sorting by priority
-sort by status
-delete a note
-editing a note
-the status of the note
-search
-dynamic change of style
+- note taking
+- sorting by priority
+- sort by status
+- delete a note
+- editing a note
+- the status of the note
+- search
+- dynamic change of style
 
 ----------------------------------------------
 
@@ -37,13 +36,13 @@ dynamic change of style
 5) The search button searches our note for the specified "title" online (filter-independent)
 
 6) Filters: (run depending on each other, synchronously)
-- note status "open" / "done" sorts our notes in the specified mode
-- the priority of "" high "/" normal "/" low "sorts our notes in the specified mode
+        - note status "open" / "done" sorts our notes in the specified mode
+        - the priority of "" high "/" normal "/" low "sorts our notes in the specified mode
 
 7) Each note has a "..." button with three buttons:
-- "done" / "open" changes the status of the selected note (you can also change the status with the "checkbox" button)
-- "edit" - edits all fields of our note and overwrites
-- "delete" - removes our notes from html markup and class
+        - "done" / "open" changes the status of the selected note (you can also change the status with the "checkbox" button)
+        - "edit" - edits all fields of our note and overwrites
+        - "delete" - removes our notes from html markup and class
 
 ----------------------------------------------
 
@@ -130,8 +129,8 @@ Optional: HTML5, HTML6, CSS Flexbox, CSS Grid, Debugging, LocalStorage, GIT, Git
 
 **					Author:
 Movchan Vlad: 
-	e-mail: movchan.vlad.tm61@gmail.com
-	telephone: 0681990937
+	- e-mail: movchan.vlad.tm61@gmail.com
+	- telephone: 0681990937
 
 ----------------------------------------------
 
