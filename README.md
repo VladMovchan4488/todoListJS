@@ -81,7 +81,7 @@ Project/
 
 **					Functionality:**  
 
-*The ../sources folder contains files that provide program logic, such as:
+*The ../sources folder contains files that provide program logic, such as:*
 
 1) The ../config folder for the application configuration contains:
 	- ../validation.js - validation checks that our header is not the same, does not start with numbers and is not blank
