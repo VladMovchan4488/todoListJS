@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> todoList </title>
+
+	<!-- CSS FILE -->
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+<!-- BLOCK -->
+	<header>
+		<div class="logo">
+			<h3>TODOList</h3>
+		</div>
+	</header>
+
+	<main>
+
+		<div class="container" id="container">
+			<ul class="row">
+				<li>
+					<form action="" class="search">
+						<input id="message" type="submit" value="">
+						<input required id="liveSearch" type="search" placeholder="LiveSearch by title"> 
+					</form>
+				</li>
+
+				<li>
+					<select class="selectvalue1" id="sortByStatus" onchange="allFilter()" size="3" multiple="false">
+						<option value="all">all</option> 
+						<option value="open">open</option>
+						<option value="done">done</option>
+					</select>
+				</li>
+
+				<li>
+					<select class="selectvalue2" id="sortByPriority" onchange="allFilter()" size="4" multiple="true">
+						<option value="all">all</option>
+						<option value="high">High</option>
+						<option value="normal">Normal</option>
+						<option value="low">Low</option>
+					</select>
+				</li>
+
+				<li>
+					<button id="add" class="btn_footer">Create</button>
+				</li>
+			</ul>
+		</div>
+
+		<div class="container3" id="container3">
+			<div class="list">
+			</div>
+		</div>
+
+		<div class="container-wrapper" id="wrapper">
+			<div class="container2" id="container2">
+				<div class="form">
+
+					<div>
+						<label id="labelTitle" for="title">Title</label>
+						<input onMouseOver="this.focus();" required type="text" id="title" placeholder="title" class="validation">
+					</div>
+
+					<div>
+						<label id="labelDescription" for="description">Description</label>
+						<input min="1" max="12" class="validation" type="text" id="description" placeholder="Description">
+					</div>
+
+					<div>
+						<p> Priority: </p>
+  						<select id="selectvalue" class="selectvalue3" size="3" multiple="true">
+							<option value="high">High</option>
+							<option value="normal">Normal</option>
+							<option value="low">Low</option>
+						</select>		
+					</div>
+			
+					<div class="form_btns">
+   					<button id="cancel" class="form_btn">Cancel</button>
+   					<button class="form_btn" id="save">Save</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container-wrapper" id="wrapper_proto">
+			<div class="container2" id="container2_proto">
+				<div class="form">
+
+					<div>
+						<label id="labelTitle_proto" for="title_proto">Title</label>
+						<input onMouseOver="this.focus();" required type="text" id="title_proto" placeholder="title" class="validation">
+					</div>
+
+					<div>
+						<label id="labelDescription_proto" for="description_proto">Description</label>
+						<input min="1" max="12" class="validation" type="text" id="description_proto" placeholder="Description">
+					</div>
+
+					<div>
+						<p> Priority: </p>
+  						<select id="selectvalue_proto" class="selectvalue3" size="3" multiple="true">
+							<option value="high">High</option>
+							<option value="normal">Normal</option>
+							<option value="low">Low</option>
+						</select>		
+					</div>
+			
+					<div class="form_btns">
+   					<button id="cancel_proto" class="form_btn">Cancel</button>
+   					<button class="form_btn" id="save_proto">Save</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer>
+		<div class="logo">
+			<h5>&copy; Vlad Movchan</h5>
+		</div>
+		<div class="wrap_footer">
+			<div class="styles">
+				<button class="btn_footer" id="button_id" onclick="toggleText()">
+					Night Theme
+				</button>
+			</div>
+		</div>
+	</footer>
+
+<!-- SCRIPTS -->
+	<script src="sources/filter.js" type="text/javascript" charset='UTF-8'></script>
+	<script src="sources/dropdown_btn/check_item.js" type="text/javascript" charset='UTF-8'></script>
+	<script src="sources/dropdown_btn/delete_item.js" type="text/javascript" charset='UTF-8'></script>
+	<script src="sources/dropdown_btn/edit_item.js" type="text/javascript" charset='UTF-8'></script>
+	<script src="sources/LocalStorage.js" type="text/javascript" charset='UTF-8'></script>
+	<script src="sources/todo_class.js" type="text/javascript" charset='UTF-8'></script>
+	<script src="sources/config/validation.js" type="text/javascript" charset='UTF-8'></script>
+	<script src="sources/search_script.js" type="text/javascript" charset='UTF-8'></script>
+	<script src="sources/config/bind.js" type="text/javascript" charset='UTF-8'></script>
+	<script src="sources/config/configuration_style.js" type="text/javascript" charset='UTF-8'></script>
+</body>
+</html>
