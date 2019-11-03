@@ -88,7 +88,6 @@ Tech task, a todo-list application.
 	- ../validation.js - validation checks that our header is not the same, does not start with numbers and is not blank
 	- ../bind.js function that gives instructions to buttons
 	- ../configuration_style.js - dynamic style change implemented in a folder, the program currently has two styles (day / night)
-	<img src="https://img5tv.cdnvideo.ru/shared/files/201807/1_784132.png" alt="альтернативный текст">
 
 2) Folder ../dropdown_btn change the status of the note (delete, status, edit):
 	- ../check_item.js - Changes the status of a note (Done, not done)
