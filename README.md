@@ -3,6 +3,7 @@ Tech task, a todo-list application.
 
 *					<--- ToDo List by Vlad Movchan version 1.0 --->
 							     Reliz #1
+<pre>           <img src="https://i.work.ua/employer_design/3/3/2/307332_page_company_header_2.jpg" alt="">	     </pre>
 
 *This TodoList is a mini program written in JavaScript / CSS / SASS / HTML.*
 
@@ -87,12 +88,12 @@ Tech task, a todo-list application.
 	- ../validation.js - validation checks that our header is not the same, does not start with numbers and is not blank
 	- ../bind.js function that gives instructions to buttons
 	- ../configuration_style.js - dynamic style change implemented in a folder, the program currently has two styles (day / night)
+	<img src="https://img5tv.cdnvideo.ru/shared/files/201807/1_784132.png" alt="альтернативный текст">
 
 2) Folder ../dropdown_btn change the status of the note (delete, status, edit):
 	- ../check_item.js - Changes the status of a note (Done, not done)
 	- ../delete_item.js - Deletes the current note in HTML and in the class itself
 	- ../edit_item.js - editing notes in HTML and in the class itself
-
 
 3) ../filter.js - contains two filters that work synchronously and are independent of each other:
 	- ../filter.js - status filter - lets you filter status notes (done, not done)
@@ -112,7 +113,8 @@ Tech task, a todo-list application.
 8) The main project folder contains:
 	- todo.html - markup in html of our page
 	- ReadMe.md is the instruction
-
+	
+**I add small comment to everyone file in my project inside this file's!!!**
 ----------------------------------------------
 
 **					Created with:**  
@@ -135,6 +137,6 @@ Tech task, a todo-list application.
 
 **					Gratitude:**  
 
-**I would like to thank "Cilkium" - for such a test task, if I do not take the courses, I would still be very grateful to you for such an interesting task, it was very interesting to program this application**
+**I would like to thank "CCCiklum" - for such a test task, if I do not take the courses, I would still be very grateful to you for such an interesting task, it was very interesting to program this application**
 
 ----------------------------------------------
