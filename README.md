@@ -6,7 +6,7 @@ Tech task, a todo-list application.
 
 *This TodoList is a mini program written in JavaScript / CSS / SASS / HTML.*
 
-        Specifics:
+**        Specifics:
 
 note taking
 sorting by priority
@@ -19,31 +19,31 @@ dynamic change of style
 
 ----------------------------------------------
 
-*					Робота з програмою:
+**					Working with the program:
 
-1) Щоб запустити програму потрбно відкрити файл todo.html - що знаходиться в основній папці
+1) To run the program, you need to open the todo.html file - located in the root folder
 
-2) Весь інтерфейс максимально простий для використання.
+2) The whole interface is as simple as possible to use.
 
-3) Для створення нотатку потрібно натиснути в нонатку кнопку "create"
-	- поле "title" - заголовок Вашої замітки, завдяки валідації не може бути пустим/цифрою/одним з попередніх "title"
-	- поле "description" - описання для Вашої замітки, може бути пусте
-	- далі можна вибрати важливість нашої нонатки "high"/"normal"/"low"
-	- кнопка "cencel" - відміняє створення нотатки
-	- кнопка "save" - створює нотатку в html та в нашому класі
+3) To create a note, press the note button "create"
+	- the "title" field is the title of your note, due to validation it cannot be blank / digit / one of the previous "title"
+	- the description field for your note may be blank
+	- you can then choose the importance of our note "high" / "normal" / "low"
+	- "cencel" button - cancels the note creation
+	- "save" button - creates notes in html and in our class
 
-4) Кнопка "Night Theme"/"Day Theme" - переключає стиль програми
+4) Night Theme / Day Theme button - toggles the program style
 
-5) Кнопка пошуку шукає нашу замітку за вказаним "title" в онлайн режимі (не залежить від фільтрів)
+5) The search button searches our note for the specified "title" online (filter-independent)
 
-6) Фільтри: (працюють залежно один від одного, синхронно)
-	- статус нотатку "open"/"done" сортує наші нотатки у вказаному режимі
-	- пріорітетність нотатку " "high"/"normal"/"low" сортує наші нотатки у вказаному режимі
+6) Filters: (run depending on each other, synchronously)
+- note status "open" / "done" sorts our notes in the specified mode
+- the priority of "" high "/" normal "/" low "sorts our notes in the specified mode
 
-7) Кожна нотатка має кнопку "..." в якій є три кнопки:
-	- "done"/"open" змінює статус вибраного нотатку (також змінити статус можна кнопкой "checkbox")
-	- "edit" - редагує всі поля нашого нотатку та перезаписує
-	- "delete" - видаляє наш нотаток з html розмітки та з класу
+7) Each note has a "..." button with three buttons:
+- "done" / "open" changes the status of the selected note (you can also change the status with the "checkbox" button)
+- "edit" - edits all fields of our note and overwrites
+- "delete" - removes our notes from html markup and class
 
 ----------------------------------------------
 
@@ -80,64 +80,63 @@ Project/
 
 ----------------------------------------------
 
-*					Функціонал:
+**					Functionality:
 
-В папці ../sources знаходяться файли, що забезпечують логіку програми, такі як:
+*The ../sources folder contains files that provide program logic, such as:
 
-1) Папка ../config для конфігурації програми містить:
-	- ../validation.js - валідація перевіряє, щоб наш заголовок не був однаковий, не починався із цифр та не був пустим
-	- ../bind.js функція, що дає настанови кнопкам
-	- ../configuration_style.js - зміна динамічних стилів реалізована в папці, программа на данний час має два стилі (денний/нічний)
+1) The ../config folder for the application configuration contains:
+	- ../validation.js - validation checks that our header is not the same, does not start with numbers and is not blank
+	- ../bind.js function that gives instructions to buttons
+	- ../configuration_style.js - dynamic style change implemented in a folder, the program currently has two styles (day / night)
 
-2) Папка ../dropdown_btn зміни стану нотатку (видалення, статус, редагування):
-    - ../check_item.js - змінює статус нотатку (виконанно, не виконано)
-    - ../delete_item.js - видаляє поточну нотатку в HTML та в самому класі
-    - ../edit_item.js - редагування нотатку в HTML та в самому класі
+2) Folder ../dropdown_btn change the status of the note (delete, status, edit):
+	- ../check_item.js - Changes the status of a note (Done, not done)
+	- ../delete_item.js - Deletes the current note in HTML and in the class itself
+	- ../edit_item.js - editing notes in HTML and in the class itself
 
 
-3) ../filter.js - містить два фільтри, які працюють синхронно і залежать одне від одного, не залежно від пошуку:
-	- ../filter.js - фільтр за статусом - дозволяє фільтрувати нотатки за статусом (виконано, не виконано)
-	- ../filter.js - фільтр за пріорітетністю - дозволяє фільтрувати нотатки за пріорітетністю (high/low/normal)
+3) ../filter.js - contains two filters that work synchronously and are independent of each other:
+	- ../filter.js - status filter - lets you filter status notes (done, not done)
+	- ../filter.js - filter by priority - allows to filter notes by priority (high / low / normal)
 
-4) ../search_script.js - працює в онлайн статусі і не залежний від фільтрів сортування за статусом та пріорітетністю, пошук проходить тільки за "title" - як дано в умові
+4) ../search_script.js - works in online status and is not dependent on filters sorting by status and priority, search is only for "title" - as given in the condition
 
-5) ../todo_class.js - клас нотаток, який створює нотатки в html розмітці 
+5) ../todo_class.js - a class of notes that creates notes in html markup
 
-**6) ../LocalStorage.js - (ТЕСТОВИЙ) файл для локального сховища, працює якщо розкоментувати, поки що в тестовому режимі**
+**6) ../LocalStorage.js - (TEST) file for local repository, works if commented while in test mode**
 
-В папці ../styles знаходяться зоображення та файли стилів для нашого додатку:
-    - ../img - містить в собі іконки пошуку та зоображення заднього фону
-    - ../styles.sass - файл препроцесору для стилів додатку
-    - ../styles.css - файл для стилів додатку конвертований з попереднього
+The ../styles folder contains images and style files for our application:
+     - ../img - Includes search icons and a background image
+     - ../styles.sass - preprocessor file for application styles
+     - ../styles.css - an application style file converted from the previous one
 
-Основна папка проекту містить:
-	- todo.html - розмітка в html нашої сторінки
-	- ReadMe.md - ця інструкція
-
-----------------------------------------------
-
-*					Створенно за допомогою
-
-*JavaScript — мова програмування для створення логіки додатку
-HTML — мова програмування для створення розмітки додатку
-SASS/CSS — мова програмування для створення стилів додатку
-Sublime Text - середовище створення додатку*
-Додатково: HTML5, HTML6, CSS Flexbox, CSS Grid, Debugging, LocalStorage, GIT, GitHub..
-
-**Управління версіями
-Оскільки це відносно не великий проект, any module bundler (ex. Webpack / Rollup / ..) я не використовував, підключав все в html файлі**
+The main project folder contains:
+	- todo.html - markup in html of our page
+	- ReadMe.md is the instruction
 
 ----------------------------------------------
 
-*					Автори
+**					Created with:
+
+*JavaScript is a programming language for creating application logic
+HTML is a programming language for creating application markup
+SASS / CSS is a programming language for creating application styles
+Sublime Text Application Builder *
+Optional: HTML5, HTML6, CSS Flexbox, CSS Grid, Debugging, LocalStorage, GIT, GitHub.
+
+**Version control: As this is not a relatively large project, I did not use any module bundler (ex. Webpack / Rollup / ..), plugged everything into an html file**
+
+----------------------------------------------
+
+**					Author:
 Movchan Vlad: 
 	e-mail: movchan.vlad.tm61@gmail.com
 	telephone: 0681990937
 
 ----------------------------------------------
 
-*					Подяка
+**					Gratitude:
 
-**Хотілось би подякувати "Cilkium" - за таке тестове завдання, якщо я не пройду на курси, я все одно Вам дуже вдячний за таку цікаву задачу, було дуже цікаво програмувати цей додаток**
+**I would like to thank "Cilkium" - for such a test task, if I do not take the courses, I would still be very grateful to you for such an interesting task, it was very interesting to program this application **
 
 ----------------------------------------------
