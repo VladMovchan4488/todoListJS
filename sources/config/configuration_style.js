@@ -1,3 +1,5 @@
+// IT'S SIMPLE STYLE FUNCTION WHICH CHANGE MY THEME
+
 function toggleText() 
 {         
   const btn = document.getElementById('button_id');          
