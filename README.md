@@ -33,6 +33,8 @@ Tech task, a todo-list application.
 	- "save" button - creates notes in html and in our class
 
 4) Night Theme / Day Theme button - toggles the program style
+	![screenshot1](https://github.com/sln4488/todoList/raw/master/screenshot1.png)
+	![screenshot2](https://github.com/sln4488/todoList/raw/master/screenshot2.png)
 
 5) The search button searches our note for the specified "title" online (filter-independent)
 
