@@ -124,10 +124,11 @@ Tech task, a todo-list application.
 - JavaScript is a programming language for creating application logic
 - HTML is a programming language for creating application markup
 - SASS / CSS is a programming language for creating application styles
-- Sublime Text Application Builder *
+- Sublime Text Application Builder 
 - Optional: HTML5, HTML6, CSS Flexbox, CSS Grid, Debugging, LocalStorage, GIT, GitHub.
 
 **Version control: As this is not a relatively large project, I did not use any module bundler (ex. Webpack / Rollup / ..), plugged everything into an html file**
+**I TRY MY APP TO "AIRBRN STYLE, BUT IT FIRST MY APP IN THIS STYLE, SO IT WAS NOT SCARCELY**
 
 ----------------------------------------------
 
