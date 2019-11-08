@@ -10,14 +10,16 @@
 
 <body>
 <!-- BLOCK -->
+	<!-- My header for app -->
 	<header>
 		<div class="logo">
 			<h3>TODOList</h3>
 		</div>
 	</header>
 
+	<!-- Main Block which get all block's without header and footer -->
 	<main>
-
+		<!-- Block which get any forms -->
 		<div class="container" id="container">
 			<ul class="row">
 				<li>
@@ -49,16 +51,17 @@
 				</li>
 			</ul>
 		</div>
-
+	
+		<!-- Block which get my notation -->
 		<div class="container3" id="container3">
 			<div class="list">
 			</div>
 		</div>
 
+		<!-- Filling out the form -->
 		<div class="container-wrapper" id="wrapper">
 			<div class="container2" id="container2">
 				<div class="form">
-
 					<div>
 						<label id="labelTitle" for="title">Title</label>
 						<input onMouseOver="this.focus();" required type="text" id="title" placeholder="title" class="validation">
@@ -77,20 +80,18 @@
 							<option value="low">Low</option>
 						</select>		
 					</div>
-			
 					<div class="form_btns">
-   					<button id="cancel" class="form_btn">Cancel</button>
-   					<button class="form_btn" id="save">Save</button>
+   						<button id="cancel" class="form_btn">Cancel</button>
+   						<button class="form_btn" id="save">Save</button>
 					</div>
-
 				</div>
 			</div>
 		</div>
-
+		
+		<!-- Filling out the form by "EDIT" -->
 		<div class="container-wrapper" id="wrapper_proto">
 			<div class="container2" id="container2_proto">
 				<div class="form">
-
 					<div>
 						<label id="labelTitle_proto" for="title_proto">Title</label>
 						<input onMouseOver="this.focus();" required type="text" id="title_proto" placeholder="title" class="validation">
@@ -109,18 +110,16 @@
 							<option value="low">Low</option>
 						</select>		
 					</div>
-			
 					<div class="form_btns">
-   					<button id="cancel_proto" class="form_btn">Cancel</button>
-   					<button class="form_btn" id="save_proto">Save</button>
+   						<button id="cancel_proto" class="form_btn">Cancel</button>
+   						<button class="form_btn" id="save_proto">Save</button>
 					</div>
-
 				</div>
 			</div>
 		</div>
-
 	</main>
 
+	<!-- My footer for app -->
 	<footer>
 		<div class="logo">
 			<h5>&copy; Vlad Movchan</h5>
