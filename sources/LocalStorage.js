@@ -1,3 +1,6 @@
+// THIS PIECE IN TEST STATUS, WHEN YOU UNCOMENTED THIS, YOU HAVE KEYS IN DATABASE, 
+// BUT IT BEEN THEY WILL BE RECORDED ONLY BEFORE RESETTING THEN KEYS RECORDING
+
 // function toLocale() {
 // 	// byLocale()
 // 	var serialObj = JSON.stringify(todo.items);
