@@ -5,7 +5,7 @@ Tech task, a todo-list application.
 							     Reliz #1
 <pre>           <img src="https://i.work.ua/employer_design/3/3/2/307332_page_company_header_2.jpg" alt="">	     </pre>
 
-**TABULATION IN CODE ON GITHUB NOT THE SAME AS TABULATION IN MY COD AFTER DOWNLOAD THIS PROJECT, BECAUSE TABULATION IN MY SUBLIME HAVE MY OWN OPTION**
+**TABULATION IN CODE ON GITHUB NOT THE SAME AS TABULATION IN MY CODE AFTER DOWNLOAD THIS PROJECT, BECAUSE TABULATION IN MY SUBLIME HAVE MY OWN OPTION**
 
 *This TodoList is a mini program written in JavaScript / CSS / SASS / HTML.*
 
