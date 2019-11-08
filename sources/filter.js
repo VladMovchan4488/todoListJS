@@ -1,12 +1,14 @@
+// THIS PIECE ABOUT FILTER OUR NOTATES BY PRIORITY AND STATUS TOGETHER
+
 function allFilter() {
-	const selectStatus = document.querySelector('#sortByStatus').value;
-	const selectPriority = document.querySelector('#sortByPriority').value;
+	const selectStatus = document.querySelector('#sortByStatus').value; // STATUS VALUE BY FORM [1]
+	const selectPriority = document.querySelector('#sortByPriority').value; // PRIORITY VALUE BY FORM [2]
 	let result = todo.items.filter(e => {
 		if(selectStatus == 'all' || selectStatus == "") {
 				return true;
 			}		
 			else {
-				if(e.check == selectStatus) {
+				if(e.check == selectStatus) { // IF STATUS VALUE BY NOTATION == [1]
          		return false;
          	}
         		else {
@@ -20,7 +22,7 @@ function allFilter() {
 			return true;
 		}		
 		else {
-			if(e.selectvalue != selectPriority) {
+			if(e.selectvalue != selectPriority) { // IF PRIORITY VALUE BY NOTATION != [2]
          	return false;
          }
         	else {
