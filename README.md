@@ -3,7 +3,6 @@ Tech task, a todo-list application.
 
 *					<--- ToDo List by Vlad Movchan version 1.0 --->
 							     Reliz #1
-<pre>           <img src="https://i.work.ua/employer_design/3/3/2/307332_page_company_header_2.jpg" alt="">	     </pre>
 
 **TABULATION IN CODE ON GITHUB NOT THE SAME AS TABULATION IN MY CODE AFTER DOWNLOAD THIS PROJECT, BECAUSE TABULATION IN MY SUBLIME HAVE MY OWN OPTION**
 
@@ -136,11 +135,5 @@ Tech task, a todo-list application.
  Movchan Vlad: 
 - e-mail: movchan.vlad.tm61@gmail.com
 - telephone: 0681990937
-
-----------------------------------------------
-
-**					Gratitude:**  
-
-**I would like to thank "CCCiklum" - for such a test task, if I do not take the courses, I would still be very grateful to you for such an interesting task, it was very interesting to program this application**
 
 ----------------------------------------------
